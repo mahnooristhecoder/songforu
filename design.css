@@ -1,0 +1,44 @@
+/* styles.css */
+
+body {
+    background-color: black;
+    color: pink;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+.heart {
+    color: red;
+    font-size: 3em;
+}
+
+.text {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.playlist-link {
+    color: pink;
+    text-decoration: none;
+    font-size: 1.2em;
+    display: inline-block;
+    margin-top: 20px;
+    border: 2px solid pink;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.playlist-link:hover {
+    background-color: pink;
+    color: pink;
+}
